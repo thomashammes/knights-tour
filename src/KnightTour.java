@@ -39,15 +39,6 @@ public class KnightTour {
         warnsdorffAlgorithm(startX, startY, board);
     }
 
-    private static void clear() {
-        try {
-            System.out.print("\033[H\033[2J");
-            System.out.flush();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     private static boolean validateInput(String p) {
         try {
             String[] parts = p.split(",");
