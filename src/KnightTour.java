@@ -73,9 +73,9 @@ public class KnightTour {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 if (board[i][j] == 1) {
-                    System.out.printf("\033[32m%4d\033[0m", board[i][j]);
+                    System.out.printf("%4d", board[i][j]);
                 } else if (board[i][j] == TOTAL_SIZE) {
-                    System.out.printf("\033[31m%4d\033[0m", board[i][j]);
+                    System.out.printf("%4d", board[i][j]);
                 } else {
                     System.out.printf("%4d", board[i][j]);
                 }
